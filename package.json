@@ -1,0 +1,27 @@
+{
+	"name": "serena-bot",
+	"version": "1.1.1",
+	"description": "A fun bot with music, fun, anime and many more commands",
+	"main": "src/index.js",
+	"author": "DeadShot, Serena",
+	"license": "MPL-2.0",
+	"scripts": {
+		"start": "node ."
+	},
+	"dependencies": {
+		"discord.js": "^12.5.3",
+		"dotenv": "^8.2.0",
+		"ytdl-core": "^4.5.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.24.0",
+		"eslint-config-aqua": "^8.1.2"
+	},
+	"optionalDependencies": {
+		"@discordjs/opus": "^0.5.0",
+		"erlpack": "github:discord/erlpack",
+		"zlib-sync": "^0.1.7"
+	},
+	"eslintConfig": {
+		"extends": "aqua/node"
+	}
