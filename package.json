@@ -1,27 +1,46 @@
 {
-	"name": "serena-bot",
-	"version": "1.1.1",
-	"description": "A fun bot with music, fun, anime and many more commands",
-	"main": "src/index.js",
-	"author": "DeadShot, Serena",
-	"license": "MPL-2.0",
-	"scripts": {
-		"start": "node ."
-	},
-	"dependencies": {
-		"discord.js": "^12.5.3",
-		"dotenv": "^8.2.0",
-		"ytdl-core": "^4.5.0"
-	},
-	"devDependencies": {
-		"eslint": "^7.24.0",
-		"eslint-config-aqua": "^8.1.2"
-	},
-	"optionalDependencies": {
-		"@discordjs/opus": "^0.5.0",
-		"erlpack": "github:discord/erlpack",
-		"zlib-sync": "^0.1.7"
-	},
-	"eslintConfig": {
-		"extends": "aqua/node"
-	}
+   "name": "serena-bot",
+   "version": "1.1.1",
+   "description": "A fun bot with music, fun, anime and many more commands",
+   "main": "src/index.js",
+   "author": "DeadShot, Serena",
+   "license": "MPL-2.0",
+   "scripts": {
+      "start": "node ."
+  },
+   "dependencies": {
+        "discord.js": "^12.5.3",
+	"dotenv": "^8.2.0",
+	"ytdl-core": "^4.5.0",
+        "amethyste-api": "^1.1.4",
+        "anime-scraper": "^3.1.1",
+        "ascii-table": "0.0.9",
+        "axios": "^0.19.2",
+        "dotenv": "^8.2.0",
+        "figlet": "^1.5.0",
+        "fs": "0.0.1-security",
+        "got": "^11.8.0",
+        "image-js": "^0.21.9",
+        "imdb-api": "^4.1.1",
+        "mathjs": "^7.1.0",
+        "moment": "^2.27.0",
+        "ms": "^2.1.2",
+        "novelcovid": "^1.2.7",
+        "parse-ms": "^2.1.0",
+        "quick.db": "^7.1.1",
+        "request-promise-native": "^1.0.9",
+        "weather-js": "^2.0.0",
+        "lyrics-finder": "^21.4.0"
+  },
+   "devDependencies": {
+	"eslint": "^7.24.0",
+	"eslint-config-aqua": "^8.1.2"
+  },
+   "optionalDependencies": {
+	"@discordjs/opus": "^0.5.0",
+	"erlpack": "github:discord/erlpack",
+	"zlib-sync": "^0.1.7"
+  },
+   "eslintConfig": {
+	"extends": "aqua/node"
+}
