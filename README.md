@@ -1,10 +1,10 @@
 ## OwO, Another Open-Source Stuff..
-Lia-Chan, a yet to be fully developed Discord Bot, is made of **JavaScript Language** with [**DiscordJS**](https://discord.js.org) and Developed by [**DeadShot**](https://deadshot.is-a.dev). It does a good job in providing many a cool features. This repository is under Development, so please bare with the mistakes :)
+Lia-Chan, a yet to be fully developed Discord Bot, is made of **JavaScript Language** with [**DiscordJS**](https://discord.js.org) and Developed by [**DeadShot**](https://github.com/deadshotofficial). It does a good job in providing many a cool features. This repository is under Development, so please bare with the mistakes :)
 
 ## Self-hosting
 This bot is half-a-way done, so if you want to self-host it anyways out of curiousity, Just follow the Steps:-
 <br>
-- **Clone the repository by typing `git clone https://github.com/deadshotofficial/lia-chan` in terminal or just download the .rar file.** [Click Here for The File](https://github.com/deadshotofficial/serena/archive/main.zip) 
+- **Clone the repository by typing `git clone https://github.com/deadshotofficial/lia-chan` in terminal or just download the .rar file.** [Click Here for The File](https://github.com/deadshotofficial/lia-chan/archive/main.zip) 
 - **Edit the contents of `.env.example` file and rename it to `.env`**
 ```
 DISCORD_TOKEN=YOUR DISCORD BOT TOKEN
